@@ -9,8 +9,8 @@ class Post
     @@all
   end
   def author_name
-    if @author = nil
-      return nil 
+    if self.author
+      self.author.name
     end
    return @author.name
   end
