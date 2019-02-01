@@ -17,5 +17,8 @@ class Author
    @posts << foo
    @@posts_count +=1
   end
+  def post_count
+    @@posts_count
+  end
   
 end 
