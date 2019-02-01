@@ -7,6 +7,9 @@ class Song
   end
   attr_accessor :name , :artist
   def artist_name
-    
+    if @artist = nil
+      return nil
+    end
+    return @artist.name
   end
 end
