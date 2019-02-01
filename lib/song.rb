@@ -12,4 +12,7 @@ class Song
     else
     return @artist.name
   end
+  def self.all 
+    return @@all
+  end
 end
