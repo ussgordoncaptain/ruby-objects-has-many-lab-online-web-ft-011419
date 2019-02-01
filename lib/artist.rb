@@ -16,9 +16,7 @@ class Artist
     @@count += 1
     @songs << song
   end
-  def songs 
-    return @songs
-  end
+ 
   def self.song_count
     @@count
  end
