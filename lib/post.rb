@@ -5,5 +5,8 @@ class Post
     @@all << self
   end
   attr_accessor :title , :author
+  def self.all 
+    @@all
+  end
   
 end
