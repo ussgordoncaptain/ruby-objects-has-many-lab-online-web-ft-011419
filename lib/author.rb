@@ -4,7 +4,7 @@ class Author
     @name = name
     @posts = []
   end
-  attr_accessor :name, :title
+  attr_accessor :name
   def posts
     @posts
   end
