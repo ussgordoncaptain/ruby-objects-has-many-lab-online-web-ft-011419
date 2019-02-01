@@ -10,6 +10,9 @@ class Post
     @@all
   end
   def author_name
+    if @author = nil
+      return nil 
+    end
    return @author.name
   end
 end
